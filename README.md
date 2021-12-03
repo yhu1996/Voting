@@ -3,9 +3,9 @@
 ## Setup the problem
 
 Suppose that there are 100 people and two parties. Each person can support one party. 
-At first, there are 50 people supporting Party R and 50 people supporting Party B. The deadline of voting is fixed. 
+At first, there are 50 people supporting Party R and 50 people supporting Party B. The deadline for voting is fixed. 
 People can discuss with friends and change their opinions before the deadline. 
-Here is a question: if Party R wants to win, what is the best distribution of its initial supporters? 
+Here is the question: if Party R wants to win, what is the best distribution of its initial supporters? 
 
 
 ## Modeling
@@ -49,6 +49,5 @@ The simulation can be divided into following three steps
 - study the effects of probability p and the system temperature T in this voting system and find the optimum values of p and T
 - use Metropolis Algorithm to simulate voting dynamics and probe the relationships between different kinds of triangles (and quadrangles) in the network and the final number of Party R supporters.
 - use genetic algorithm to optimize random network and make Party R always win
-
 
 
